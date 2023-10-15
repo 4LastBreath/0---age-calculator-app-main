@@ -113,7 +113,7 @@ input[type=number] {
 .input-container {
   display: flex;
   flex-direction: column;
-  width: 142px;
+  width: 148px;
 }
 
 .input {
