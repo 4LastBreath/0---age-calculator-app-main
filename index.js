@@ -96,7 +96,7 @@ function calculateAge(e) {
   if (!year.value) {
     displayError(year, allErrors[2], allLabel[2], 'This field is required');
     isValid = false;
-  } else if (isNaN(yearValue) || yearValue < 100) {
+  } else if (isNaN(yearValue) || yearValue < 1000) {
     displayError(year, allErrors[2], allLabel[2], 'Must be a valid year');
     isValid = false;
   } else if (yearValue > new Date().getFullYear()) {
